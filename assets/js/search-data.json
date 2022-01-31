@@ -42,7 +42,7 @@
   
       ,"page3": {
           "title": "Publications",
-          "content": "2022 . 2021 . 2020 . 2019 . 2018 . bib |",
+          "content": "2022 . 2021 . Transfering Knowledge from Vision to Language: How to Achieve it and how to Measure it? Norlund, Tobias, Hagström, Lovisa, and Johansson, Richard In Proceedings of the Fourth BlackboxNLP Workshop on Analyzing and Interpreting Neural Networks for NLP 2021 Details | 2020 . 2019 . 2018 .",
           "url": "https://m3hrdadfi.github.io/sample-page/publications/",
           "relUrl": "/publications/",
           "date": ""
@@ -71,10 +71,21 @@
   
 
   
+      ,"page8": {
+          "title": "Transfering Knowledge from Vision to Language: How to Achieve it and how to Measure it?",
+          "content": "",
+          "url": "https://m3hrdadfi.github.io/sample-page/bibliography/norlund2021.html",
+          "relUrl": "/bibliography/norlund2021.html",
+          "date": ""
+      }
+      
   
 
   
-      ,"page9": {
+  
+
+  
+      ,"page10": {
           "title": "",
           "content": "Sitemap: {{ “sitemap.xml” | absolute_url }} | .",
           "url": "https://m3hrdadfi.github.io/sample-page/robots.txt",
