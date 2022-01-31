@@ -8,7 +8,7 @@ Here we can present ourselves...
 
 
 <h1>Team</h1>
-{% assing sorted = site.members | sort: "start-date" %}
+{% assign sorted = site.members | sort: "start-date" %}
 {% for member in sorted %}
   {% unless member.current %}
         <!-- The paddingtop and margin-top edits allow anchors to link properly. -->

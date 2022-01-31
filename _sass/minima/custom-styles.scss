@@ -6,7 +6,13 @@
 
 /*-----------------------------------*/
 /*----- ADD YOUR STYLES BELOW -------*/
-
+.wrapper {
+    padding-right: 30px;
+    padding-left: 30px;
+    margin: 0 auto;
+    display: block;
+    width: 80%;
+}
 .rounded-circle {
     border-radius: 50% !important;
     width: 120px;
