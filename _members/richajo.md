@@ -3,7 +3,7 @@ name: Richard Johansson
 image: /sample-page/images/members/user.png
 position: position
 #current: # for alumni
-start-date: YYYY-MM-DD
+start-date: 2018-01-01
 end-date: YYYY-MM-DD  
 pronouns: pronouns
 email: email@chalmers.se

@@ -3,7 +3,7 @@ name: Tobias Norlund
 image: /sample-page/images/members/user.png
 position: position
 #current: # for alumni
-start-date: YYYY-MM-DD
+start-date: 2019-01-01
 end-date: YYYY-MM-DD  
 pronouns: pronouns
 email: email@chalmers.se
