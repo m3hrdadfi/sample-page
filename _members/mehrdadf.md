@@ -1,5 +1,5 @@
 ---
-name: Richard Johansson
+name: Mehrdad Farahani
 image: /sample-page/images/members/user.png
 position: position
 #current: # for alumni

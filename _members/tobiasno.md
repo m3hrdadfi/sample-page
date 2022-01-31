@@ -1,5 +1,5 @@
 ---
-name: Richard Johansson
+name: Tobias Norlund
 image: /sample-page/images/members/user.png
 position: position
 #current: # for alumni
