@@ -32,14 +32,10 @@
   
 
   
-
-  
   
 
   
-
-  
-      ,"page6": {
+      ,"page4": {
           "title": "Team",
           "content": "Here we can present ourselves. .",
           "url": "https://m3hrdadfi.github.io/sample-page/team/",
@@ -59,7 +55,7 @@
   
 
   
-      ,"page10": {
+      ,"page8": {
           "title": "",
           "content": "Sitemap: {{ “sitemap.xml” | absolute_url }} | .",
           "url": "https://m3hrdadfi.github.io/sample-page/robots.txt",
