@@ -27,6 +27,17 @@
   
 
   
+      ,"page1": {
+          "title": "About",
+          "content": "Here you can find more about our group. .",
+          "url": "https://m3hrdadfi.github.io/sample-page/about/",
+          "relUrl": "/about/",
+          "date": ""
+      }
+      
+  
+
+  
 
   
   
@@ -35,7 +46,7 @@
   
 
   
-      ,"page4": {
+      ,"page5": {
           "title": "Team",
           "content": "Here we can present ourselves. .",
           "url": "https://m3hrdadfi.github.io/sample-page/team/",
@@ -55,7 +66,7 @@
   
 
   
-      ,"page8": {
+      ,"page9": {
           "title": "",
           "content": "Sitemap: {{ “sitemap.xml” | absolute_url }} | .",
           "url": "https://m3hrdadfi.github.io/sample-page/robots.txt",
