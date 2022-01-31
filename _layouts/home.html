@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div class="home">
+<div class="container">
   {%- if page.title -%}
     <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
@@ -46,35 +46,35 @@ layout: default
     {%- if page.list_title -%}
       <h2 class="post-list-heading">{{ page.list_title }}</h2>
     {%- endif -%}
-    <ul class="post-list">
+    <div class="row row-cols-1 row-cols-md-2 g-4">
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
       {%- for post in posts -%}
-      <li>
+      <div class="col">
         {%- if site.show_image -%}
             {%- include post_list_image_card.html -%}
         {% else %}
             {%- include post_list.html -%}
         {%- endif -%}
-      </li>
+      </div>
       {%- endfor -%}
-    </ul>
+    </div>
 
     {% if site.paginate and site.posts.size > site.paginate %}
-      <div class="pager">
+      <nav>
         <ul class="pagination">
         {%- if paginator.previous_page %}
-          <li><a href="{{ paginator.previous_page_path | relative_url }}" class="previous-page">{{ paginator.previous_page }}</a></li>
+          <li class="page-item"><a href="{{ paginator.previous_page_path | relative_url }}" class="page-link">Previous</a></li>
         {%- else %}
-          <li><div class="pager-edge">•</div></li>
+          <li class="page-item"><a href="#" class="page-link disabled">Previous</a></li>
         {%- endif %}
-          <li><div class="current-page">{{ paginator.page }}</div></li>
+          <li class="page-item"><div class="page-link">{{ paginator.page }}</div></li>
         {%- if paginator.next_page %}
-          <li><a href="{{ paginator.next_page_path | relative_url }}" class="next-page">{{ paginator.next_page }}</a></li>
+          <li class="page-item"><a href="{{ paginator.next_page_path | relative_url }}" class="next-page">Next</a></li>
         {%- else %}
-          <li><div class="pager-edge">•</div></li>
+        <li class="page-item"><a href="#" class="page-link disabled">Next</a></li>
         {%- endif %}
         </ul>
-      </div>
+      </nav>
     {%- endif %}
 
   {%- endif -%}
