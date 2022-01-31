@@ -27,17 +27,6 @@
   
 
   
-      ,"page1": {
-          "title": "About Me",
-          "content": "This website is powered by fastpages 1. . a blogging platform that natively supports Jupyter notebooks in addition to other formats. &#8617; . |",
-          "url": "https://m3hrdadfi.github.io/sample-page/about/",
-          "relUrl": "/about/",
-          "date": ""
-      }
-      
-  
-
-  
 
   
   
@@ -50,7 +39,7 @@
   
 
   
-      ,"page7": {
+      ,"page6": {
           "title": "Team",
           "content": "Here we can present ourselves. .",
           "url": "https://m3hrdadfi.github.io/sample-page/team/",
@@ -70,7 +59,7 @@
   
 
   
-      ,"page11": {
+      ,"page10": {
           "title": "",
           "content": "Sitemap: {{ “sitemap.xml” | absolute_url }} | .",
           "url": "https://m3hrdadfi.github.io/sample-page/robots.txt",
